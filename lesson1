@@ -1,0 +1,110 @@
+#1.1
+# a= (int(input("Enter num а: ")))
+# b= (int(input("Enter num b: ")))
+# res=a**b
+# print("Result: " , res)
+
+#1.2
+
+# a= (int(input("Enter num: ")))
+#
+# if a==1:
+#     print("Monday")
+# elif a==2:
+#     print("Tuesday")
+# elif a==3:
+#     print("Wednesday")
+# elif a==4:
+#     print("Thursday")
+# elif a==5:
+#     print("Friday")
+# elif a==6:
+#     print("Saturday")
+# elif a == 7:
+#     print("Sunday")
+# else:
+#     print("Wrong num")
+
+#1.3
+
+# a= (int(input("Enter num а: ")))
+# b= (int(input("Enter num b: ")))
+# if a > b:
+#     res=a
+# elif a < b:
+#     res=b
+# else:
+#     print("Nums are equal!")
+#     res=0
+# print("Result: " , res)
+
+#1.4
+
+# num=int(input("Enter amount in UAH: "))
+# price=float(input("Enter price in USD: "))
+#
+# print("Result: ",float(num / price) )
+
+#2.1
+
+# a= (int(input("Enter num а: ")))
+# if (a % 2)==0 :
+#     print("Num ",a,"is even")
+# elif (a % 2)!=0:
+#     print("Num ", a, "is not even")
+# else:
+#     print("Error!")
+
+#2.2
+
+# a= (int(input("Enter num а: ")))
+# b= (int(input("Enter num b: ")))
+# c= (int(input("Enter num c: ")))
+#
+# if a > b and a > c:
+#     print (a)
+# elif a < b and b > c:
+#     print (b)
+# elif c > a and c > b:
+#     print (c)
+# else:
+#     print("Error!")
+
+#2.3
+
+# a=6
+# b=9
+# c= (int(input("Enter sleep time: ")))
+#
+# if c >=a and c <= b:
+#     print("Normal sleep time")
+# elif c < a:
+#     print("Lack of sleep time")
+# elif c> b:
+#     print("Over sleep time")
+# else:
+#     print("Error!")
+
+#3.1
+
+# a= float(input("Enter num а: "))
+# b= float(input("Enter num b: "))
+# op= input("Enter operation: ")
+#
+# if op=='+' or '-' or '-' or '/' or '*' or 'mod' or 'pow' or 'div':
+#     if op=='+':
+#         print("Result:" ,a + b)
+#     elif op=='-':
+#         print("Result:", a - b)
+#     elif op=='-':
+#         print("Result:", a * b)
+#     elif op == '-':
+#         print("Result:", a / b)
+#     elif op=='mod':
+#         print("Result:", a % b)
+#     elif op == 'pow':
+#         print("Result:", a ** b)
+#     elif op == 'div':
+#         print("Result:", int(a) / int(b))
+# else:
+#     print("Error!")
